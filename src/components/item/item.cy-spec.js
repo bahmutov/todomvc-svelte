@@ -1,6 +1,7 @@
 import { mount } from 'cypress-svelte-unit-test';
 import Item from './item.svelte';
 
+/* global cy */
 describe('Item', () => {
   const styles = {
     cssFile: 'node_modules/todomvc-app-css/index.css',
